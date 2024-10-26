@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje Compilado vs Interpretado</title>
+</head>
+<body>
+    <h1>Lenguajes compilados vs interpretados</h1>
+    <p>Los lenguajes de programación pueden ser calificados a grandes rasgos como:</p>
+    <ul>
+        <li>Lenguaje Interpretado</li>
+        <li>Lenguaje Compilado</li>
+    </ul>
+    <p>
+        Los lenguajes interpretados tienen la característica que, después de ser escrito el código fuente, es pasado al intérprete que lo procesará,
+        línea a línea. Entre los lenguajes más populares que cumplen esta característica están:
+    </p>
+    <ul>
+        <li>JavaScript [🟡JS]</li>
+        <li>Python 🐍</li>
+        <li>Ruby [🔴R]</li>
+    </ul>
+    <p>
+        Por otro lado, los lenguajes compilados son un poco más complejos, dado que luego de escrito el código fuente del programa, este debe ser validado
+        y transformado a código máquina específico donde se usará el programa final. Algunos lenguajes populares que son compilados son:
+    </p>
+    <ul>
+        <li>C </li>
+        <li>C++</li>
+        <li>C#</li>
+        <li>Fortran</li>
+    </ul>
+    <p>
+        Antes, los <i>lenguajes compilados</i> eran más utilizados dado que fueron los primeros lenguajes utilizados luego de avanzar en la mejora continúa del la
+        escritura de programas para computadoras, dado que en un inicio solamente era posible codificar programas en código <b>ensamblador</b> que posteriormente se
+        convertía en código <b>máquina</b> especifico a la computadora a la cual fue diseñado el <i>programa ensamblador</i>. Los lenguajes compilados se podrían ver
+        de manera informal, como una extensión de los programas ensambladores, donde lo que se buscó era facilitar la sintaxis de un código escrito en ensamblador. Este
+        código se basa en operaciones mátematicas básicas, como sumas, restas, multiplicaciones y divisiones enteras y con residuo; también ejecuta la administración
+        de recursos computacionales directamente, dicho de otra forma, administra los registros de memoria principal.
+    </p>
+    <p>
+        El proceso de codificar programas en código ensamblador era complejo y propenso a muchos errores por parte de la lógica del programador. Como ayuda a reducir
+        esta complejidad, se idearon los compiladores (y de ahí los lenguajes compilados), los cuales añadían un paso extra al proceso de codificación, ahora en un
+        lenguaje más entendible por los programadores, buscando simplificar cálculos y procesos parcialmente complejos y altamente repetitivos, como realizar ciclos
+        en una estructura de datos y el acceso a esos datos.
+    </p>
+    <p>
+        Al pasar el tiempo, se propusieron los lenguajes interpretados, que mantienen el concepto de los lenguajes compilados, el facilitar la codificación de programas,
+        pero ahora con la diferencia de que no sean compilados. Esto tuvo principales concecuencias, dado que era posible escribir un solo código y esperar con mayor
+        probabilidad que el mismo sirviera en multiples computadoras con característica muy diferentes (marca, procesador, cantidad de memoria principal, chips), dado
+        que los lenguajes compilados necesitaban de un compilador diseñado para cada equipo en particular, y existían casos donde no existía dicho compilador.
+    </p>
+    <p>
+        Como contraparte, tenían la necesidad de utilizar mayor poder computacional, es decir, requerían más memoria y energía para el procesamiento del código, algo que
+        en la era de surgimiento de las computadoras era muy escaso y caro. Pero al pasar el tiempo esto fue posible dado de la mejora en las tecnologías computacionales.
+    </p>
+    <p>
+        En la actualidad, cada tipo de lenguaje tiene un área en especifico donde se utilizan mayormente:
+    </p>
+    <ul>
+        <li>
+            Lenguajes compilados: Utilizados para la creación de sistemas operativos de computadoras, dado que permiten la administración y uso de recursos
+            computacionales de mejor manera.
+        </li>
+        <li>
+            Lenguajes interpretados: Usados para la creación de aplicaciones comerciales que constantemente requieren una actualización y cambios tanto pequeños
+            como grandes en su estructura.
+        </li>
+    </ul>
+    <p>
+        Existe un lenguajes especial, denominado comúnmente como híbrido, ya que hace uso de los dos tipos de característica de los lenguajes mencionados, es tanto
+        interpretado como compilado, este lenguaje es Java [☕]. Primero, se codifica el código en este lenguaje, y se genera un bytecode, el cual va a ser interpretado
+        por la <i>Java Virtual Machine</i>, este interprete compilará el código en tiempo de ejecución a un código que entenderá la máquina. Esto es el resultado de
+        mejorar un interprete y darle las caracteristicas de un compilador.
+    </p>
+</body>
+</html>
